@@ -120,7 +120,7 @@ function CountSort() {
                 </div>
 
                 <div className="num"> 
-                    Max number: {max}
+                    Maximum number: {max?max:'_'}
                 </div>
             <div className="number-container">
                 {count.map((value, index) => (

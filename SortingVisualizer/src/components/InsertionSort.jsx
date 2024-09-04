@@ -89,7 +89,7 @@ function InsertionSort() {
                     </div>
                 ))}
             </div>
-            <div className="num">Temp : {tempNum}</div>
+            <div className="num">Temporary variable : {tempNum?tempNum:'_'}</div>
             <div className="button-container">
                 <button onClick={insertionSort}>Start Insertion Sort</button>
                 <button onClick={resetArray}>Reset Array</button>

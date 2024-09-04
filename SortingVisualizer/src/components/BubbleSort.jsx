@@ -84,7 +84,7 @@ function BubbleSort() {
                     </div>
                 ))}
             </div>
-            <div className="num">Temp : {tempNum}</div>
+            <div className="num">Temporary variable : {tempNum?tempNum:'_'}</div>
             <div className="button-container">
                 <button onClick={bubbleSort}>Start Bubble Sort</button>
                 <button onClick={resetArray}>Reset Array</button>
