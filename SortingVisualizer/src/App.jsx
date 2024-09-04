@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BubbleSort  from './components/BubbleSort';
-import InsertionSort from './components/insertionSort';
-import CountSort from './components/countSort';
+import InsertionSort from './components/InsertionSort';
+import CountSort from './components/CountSort';
 
 import './App.css';
 
